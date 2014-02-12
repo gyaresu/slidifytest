@@ -20,8 +20,7 @@ mode        : selfcontained # {standalone, draft}
 ```{r qplot, fig.width=4, fig.height=3, message=FALSE}
 # quick summary and plot
 library(ggplot2)
-#
-summary(cars)
+## summary(cars)
 qplot(speed, dist, data=cars) +
   geom_smooth()
 ```
