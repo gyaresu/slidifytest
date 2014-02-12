@@ -21,6 +21,7 @@ mode        : selfcontained # {standalone, draft}
 ```r
 # quick summary and plot
 library(ggplot2)
+# 
 summary(cars)
 ```
 
