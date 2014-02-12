@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Slidify Test</title>
   <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Slidify Test">
+  <meta name="author" content="Gareth">
   <meta name="generator" content="slidify" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -32,9 +32,9 @@
     <!-- LOGO SLIDE -->
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
-    <h1></h1>
-    <h2></h2>
-    <p><br/></p>
+    <h1>Slidify Test</h1>
+    <h2>Yay test!</h2>
+    <p>Gareth<br/></p>
   </hgroup>
   <article></article>  
 </slide>
@@ -42,9 +42,6 @@
 
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
-  <hgroup>
-    <h2>Read-And-Delete</h2>
-  </hgroup>
   <article data-timings="">
     <ol>
 <li>Edit YAML front matter</li>
@@ -58,10 +55,28 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>R Example</h2>
   </hgroup>
   <article data-timings="">
-    
+    <pre><code class="r"># quick summary and plot
+library(ggplot2)
+summary(cars)
+</code></pre>
+
+<pre><code>##      speed           dist    
+##  Min.   : 4.0   Min.   :  2  
+##  1st Qu.:12.0   1st Qu.: 26  
+##  Median :15.0   Median : 36  
+##  Mean   :15.4   Mean   : 43  
+##  3rd Qu.:19.0   3rd Qu.: 56  
+##  Max.   :25.0   Max.   :120
+</code></pre>
+
+<pre><code class="r">qplot(speed, dist, data = cars) + geom_smooth()
+</code></pre>
+
+<p><img src="assets/fig/qplot.png" alt="plot of chunk qplot"> </p>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -72,13 +87,13 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title=''>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='R Example'>
          2
       </a>
     </li>
