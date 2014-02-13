@@ -1,7 +1,9 @@
 base
+bitops
 devtools
 ggplot2
 knitr
+RCurl
 rstudio
 slidify
 slidifyLibraries
